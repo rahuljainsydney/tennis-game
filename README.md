@@ -6,5 +6,4 @@ Navigate to the src folder of the project and execute using node app or node app
 
 
 ## Output
-<img height="700" src="https://github.com/rahuljainsydney/tennis-game/tree/master/img/output.png" />
 ![Output](https://github.com/rahuljainsydney/tennis-game/tree/master/img/output.png)
