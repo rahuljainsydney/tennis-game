@@ -89,8 +89,7 @@ describe('Set Point', function() {
     testUser1.gamesWon=4;
     testUser2.gamesWon=5;
     testUser2.setPointsWon(40);
-    match.getCurrentSet().wonPoint(testUser2);
-    //match.getCurrentSet().wonPoint(testUser2);
-    expect(match.isSetOver()).to.equal(true);
+    match.getCurrentSet().wonPoint(testUser1);
+    expect(match.isSetOver()).to.equal(false);
   });
 });
