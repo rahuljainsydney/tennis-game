@@ -13,6 +13,9 @@ Player.prototype.getPointsWon = function() {
   return this.pointsWon;
 }
 
+Player.prototype.getAdvantage = function() {
+  return this.advantage;
+}
 module.exports = {
   Player
 }
